@@ -1,0 +1,35 @@
+.starProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmax auto;
+}
+
+.starProduct>div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    width: 46%;
+    
+}
+
+.starProduct img{
+    transition: all 0.5s ease-in-out 0.2s;
+}
+
+/* .stardiv>div:nth-child(3) {
+    width: 650px;
+    border: 2px solid red;
+} */
+.stardiv>div:nth-child(3) img {
+    width: 610px;
+} 
+
+.stardiv-one img{
+    height: 600px;
+}
+.starProduct img:hover{
+    box-shadow: 6px 6px 14px gray;
+}
+
+
+

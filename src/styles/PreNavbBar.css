@@ -1,0 +1,27 @@
+.preNavBar{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+}
+
+.preNavBar > div{
+    padding: 0.2vmax 5vmax;
+    display: flex;
+    align-items: center;
+}
+
+.preNavBar > div >span{
+    color: rgb(221, 216, 216);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+
+.preNavBar > div >a {
+    color: white;
+    font-size: 0.9vmax;
+    font-weight: 300;
+    margin: 1vmax;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
